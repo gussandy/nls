@@ -8,4 +8,14 @@ autopublish
 insecure
 mizzao:bootstrap-3
 underscore
+fortawesome:fontawesome
+iron:router
 
+tracker
+reactive-dict
+jquery
+aldeed:simple-schema
+aldeed:autoform
+themeteorchef:bert
+themeteorchef:jquery-validation
+reactive-var

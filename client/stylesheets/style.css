@@ -1,0 +1,675 @@
+/* --------------------------------------
+=========================================
+GLOBAL STYLES
+=========================================
+-----------------------------------------*/
+body {
+    
+    font-size: 14px;
+    color: #444444;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+.error { 
+  color: red; 
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.navbar-brand .logo-image {
+  margin-left: 40px; 
+}
+
+.navbar-nav li.active a {
+  color: #3498db;
+}
+
+.navbar-nav li a {
+  color: #464646;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-inner {
+  background-color: #f9f9fa;
+  min-height: 45px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.collapse .nav {
+  padding-right: 30px;
+}
+
+
+
+
+
+.top-account .btn-sign-in {
+  background-color: #3498db;
+  color: #6B6B6B!important;
+  border: 0;
+  box-shadow: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.top-account .btn-sign-up {
+  background-color: #EE6557;
+  color: #FFFFFF!important;
+  border: 0;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.top-account a {
+  font-size: 14px;
+}
+
+.banner-slider {
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  padding: 0;
+  border-bottom: 1px solid #e1e5f0;
+}
+
+
+.navbar-brand {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sections-wrapper {
+  margin-top: 62px;
+}
+
+/* Section one wrapper */
+
+.what-is-nls {
+  text-align: center;
+}
+
+#what-is-nls-content {
+  padding: 40px 0 30px;
+}
+
+.title-center {
+
+}
+
+.intro-center {
+
+}
+
+i {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+/*---------------------------------------
+ **   FORMS                    
+-----------------------------------------*/
+.form-group {
+  width: 70px;
+}
+
+.form-group .input-block {
+  width: 95%;
+  height: 60px;
+  border: 3px solid #3498db;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+/*---------------------------------------
+ **   TYPOGRAPHY                    
+-----------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h1,h2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 55px;
+}
+h2 {
+    font-size: 45px !important;
+    line-height: 55px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 17px;
+}
+h6 {
+    font-size: 16px;
+}
+
+/*---------------------------------------
+ **   BUTTONS                        -----
+-----------------------------------------*/
+
+.buttons {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 45px;
+}
+
+.custom-button {
+    display: inline-block !important;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 35px 13px 35px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+}
+.red-btn {
+    background: #e96656;
+}
+
+.red-btn,{
+    color: #FFF;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.red-btn:hover {
+    color: #FFF;
+    background: #cb4332;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+a {
+  color: #ec6952;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+  color: #e74124;
+}
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+/*------------------------------
+  JUMBOTRON
+------------------------------*/
+
+.jumbotron {
+  padding:0;
+  border-bottom:0;
+  margin:0;
+  background-color:transparent;
+}
+
+.jumbotron6 {
+  background-color:transparent;
+  padding:0;
+}
+
+.jumbotron6 .item {
+  height:450px;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+
+.jumbotron6 h2 {
+  color:#FFFFFF;
+  padding:7px 14px;
+  margin:70px 30px 40px;
+  font-size:28px;
+  text-transform:uppercase;
+  font-weight:bold;
+  line-height:40px;
+  display:inline-block;
+}
+
+.jumbotron6 h3 {
+  background-color:rgba(0, 0, 0, 0.6);
+  color:#FFFFFF;
+  padding:7px 14px;
+  margin:0 30px 20px;
+  font-size:24px;
+  text-transform:uppercase;
+  font-weight:bold;
+  line-height:40px;
+  display:inline-block;
+}
+
+.slide2 {
+
+}
+
+.slide1 {
+ 
+}
+
+.jumbo {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: inherit;
+  content: ' ';
+}
+
+.slide3 {
+  
+  
+}
+
+.jumbo #slide-1 img {
+  margin-top:50px;
+}
+
+.jumbo h2 {
+  background-color:transparent;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 80px 0 30px;
+  text-align:left;
+  padding:0;
+  line-height:90px;
+}
+
+.jumbo h3 {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin:0 0 10px;
+  line-height:50px;
+}
+
+.jumbo h2 {
+  font-size: 60px;
+  line-height:70px;
+  padding:20px;
+  margin:100px 0 30px;
+}
+
+.jumbo h3 {
+  font-size: 36px;
+  margin:0 0 30px;
+}
+
+.jumbo .btn {
+  font-size: 20px;
+  border-radius:0;
+  color: #FFFFFF;
+}
+
+.jumbo {
+  color:#FFFFFF;
+}
+
+.jumbo span {
+  font-size: 20px;
+  color:#FFFFFF;
+  text-transform:uppercase;
+  font-weight:bold;
+  position:relative;
+  top:5px;
+  margin:0 10px;
+}
+
+/*------------------------------
+  Winners-Play (Prize-items) 
+------------------------------*/
+
+.prize-items {
+  margin-left: 5px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.prize-wrapper {
+  margin-bottom: 10px;
+  padding: 5px;
+  background: #e6e6e6;
+  border-radius: 2px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.game-prizes li {
+  padding: 2px;
+  background: #f7f7f7;
+  border-radius: 2px;
+}
+
+.game-prizes li h4 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: #4d4d4d;
+}
+
+.game-prizes li p {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.what-is-nls {
+  background-color: #eee;
+  height: 450px;
+}
+
+.intro-center {
+  font-size: 21px;
+  padding: 30px 40px 0px 40px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.intro-center p {
+  color: #777777;
+}
+
+.what-is-nls-button {
+  padding-top: 55px;
+}
+
+.nls-button {
+  border: 1px solid #2980b9;
+  color: #2980b9;
+  text-align: center;
+}
+
+.btn-lg {
+  padding: 14px 28px 13px 28px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn {
+  -webkit-border-radius: 2px;
+}
+
+#how-it-works {
+  background-color: #3498db;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  
+}
+
+.title-center {
+  font-size: 40px;
+}
+
+.text-center {
+  padding-left: 20px;
+}
+
+.how-it-works-title {
+  padding-bottom: 40px;
+  font-size: 40px;
+  color: white;
+}
+
+.fa {
+  font-size: 80px;
+}
+
+.border-black {
+  border: 1px solid #FFF;
+  color: #C63D2D;
+  background-color: transparent;
+}
+
+.btn-xs {
+  padding: 5px;
+  font-size: 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.winners-play {
+  padding-top: 80px;
+  padding-bottom: 200px;
+  background-color: #eee;
+  color: #464646;
+  border-top: 30px solid #464646;
+  border-bottom: 30px solid #464646;
+}
+
+.winners-title {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+.inner-page {
+  text-align: center;
+}
+.entry-form {
+  
+}
+
+.entry-form-title {
+
+}
+
+.lform {
+  vertical-align: center;
+  margin-top: 12px;
+}
+
+.play-btn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.mems-videos {
+  padding-left: 40px;
+}
+
+.members-vid-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #FFFFFF;
+}
+
+.members-vid-header {
+  text-align: center;
+  padding: 0 30px 30px 30px;
+  font-size: 40px;
+  color: #3498db;
+}
+
+.watch-mems {
+  text-align: center;
+  font-size: 25px;
+  color: #464646;
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+
+.caption {
+  padding-left: 70px;
+  color: #3498db;
+}
+
+/*------------------------------
+  Footer 
+------------------------------*/
+#footer-1 {
+  height: 350px;
+  width: 100%;
+
+}
+
+#footer-1 .container {
+  
+  color: #FFFFFF;
+  background-color: #232323;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 80px;
+  font-family: inherit;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.footer-feedback {
+  padding-right: 20px;
+}
+
+.footer-feedback input[type="text"] {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid #3498db;
+  margin-bottom: 10px;
+  color: #aaa;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.footer-feedback textarea {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid #3498db;
+  margin-bottom: 10px;
+  color: #aaa;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.footer-feedback .btn {
+  background-color: #3498db;
+  text-shadow: none;
+  padding: 6px 12px;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+#footer-1 h3 {
+  color: #ccc;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#footer-1 p {
+  color: #ccc;
+  font-size: 13px
+}
+
+.footer-contact .fa {
+  font-size: 20px;
+  color: #3498db;
+  padding-right: 7px;
+}
+
+.footer-contact {
+  font-size: 10px;
+}
+
+.btn-icon {
+  position: relative;
+}
+
+.footer-about-us-btn {
+  color: #FFFFFF;
+  background-color: #3498db;
+  border: 1px solid;
+  border-color: #258cd1;
+}
+
+.footer-about-us .fa {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.btn-block {
+  display: block;
+  width: 50%;
+  margin-top: 37px;
+}
+
+#footer-2 .container {
+  border-top: 1px #3d3d3d solid;
+  background-color: #222;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 35px 0;
+  width: 100%;
+  height: 70px;
+  font-family: inherit;
+}
+
+#footer-2 .list-inline {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  color: #3498db;
+}
+
+#footer-2 .list-inline li:first-child {
+  padding-left: 0;
+}
+
+#footer-2 .list-inline li {
+  border-right: 1px solid #ecf0f1;
+  padding-right: 10px;
+}
+
+.footer-info-wrapper a {
+  color: #3498db;
+}
+
+#footer-2 .list-inline li:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.list-inline li a {
+  font-family: inherit;
+  color: #3498db;
+}

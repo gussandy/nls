@@ -1,0 +1,20 @@
+<template name="layout">
+	<div class="container">
+		<div class="row-fluid">
+			<header>
+				{{> header}}
+			</header>
+
+			<div class="banner">
+				{{> banner}}
+			</div>
+			
+				{{> yield}}
+			
+
+			<footer>
+				{{> footer}}
+			</footer>
+		</div>
+	</div>
+</template>

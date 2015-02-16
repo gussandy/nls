@@ -1,0 +1,17 @@
+<template name="errorMsg">
+    <div class="errorMsg">
+        {{#if errorMessages}}
+            <div class="list-errors">
+              {{#each errorMessages}}
+                <div class="list-item">{{> fieldError}}</div>
+              {{/each}}
+            </div>
+        {{/if}}
+    </div>
+</template>
+
+<template name="fieldError">
+    <div class="alert alert-danger" role="alert">
+        {{errors}}
+    </div>
+</template>

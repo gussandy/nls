@@ -1,0 +1,4 @@
+body{ margin-top: 25px; margin-left: 10px;}
+.error, .required{ color: red; }
+input[type=submit]{ margin-top: 20px; }
+input, select{ margin-right: 20px; }
